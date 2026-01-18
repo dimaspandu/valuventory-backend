@@ -1,1 +1,3 @@
+com\valuventory\controller\HomeController.class
+com\valuventory\config\SecurityConfig.class
 com\valuventory\ValuventoryApplication.class
