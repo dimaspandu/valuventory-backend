@@ -1,5 +1,7 @@
 com\valuventory\entity\ItemStatus.class
+com\valuventory\service\ItemService.class
 com\valuventory\config\SecurityConfig.class
+com\valuventory\controller\ItemController.class
 com\valuventory\controller\HomeController.class
 com\valuventory\entity\Item.class
 com\valuventory\repository\ItemRepository.class
