@@ -1,3 +1,5 @@
+com\valuventory\entity\ItemStatus.class
 com\valuventory\controller\HomeController.class
+com\valuventory\entity\Item.class
 com\valuventory\config\SecurityConfig.class
 com\valuventory\ValuventoryApplication.class
