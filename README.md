@@ -22,12 +22,11 @@ This project is also intended as a practical learning and reference project for 
 
 ## Core Features (MVP)
 
-* User registration and authentication
-* Inventory item management (create, update, list)
-* Item status tracking (in use, unused, broken)
-* Asset value calculation with simple depreciation rules
-* Filtering unused or inactive items
-* Action tagging (keep, donate, sell)
+* Basic authentication (form login for development)
+* Inventory item management (create, list)
+* Item status tracking (ACTIVE, UNUSED, DONATE, SELL)
+* Asset value storage and aggregation (manual input)
+* Simple REST API for inventory access
 
 ---
 
@@ -63,9 +62,9 @@ This project is also intended as a practical learning and reference project for 
 * Spring Boot 3
 * Spring Web
 * Spring Data JPA
-* Spring Security (JWT-based authentication)
-* PostgreSQL (production)
+* Spring Security (form login, development)
 * H2 Database (development)
+* PostgreSQL (planned for production)
 * Maven
 
 ---
@@ -104,4 +103,4 @@ security/
 
 ## License
 
-This project is intended for learning and experimental purposes. Licensing can be adjusted as the project evolves.
+This project is licensed under the MIT License. See the LICENSE file for details.
